@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 6.2.0
+
+dependencies:
+  pre:
+    - npm install -g npm
+    
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: stijnwinand
