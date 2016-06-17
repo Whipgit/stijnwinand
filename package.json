@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node .",
     "pretest": "jshint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "posttest": "nsp check"
   },
   "dependencies": {
@@ -25,5 +26,8 @@
     "type": "",
     "url": ""
   },
-  "description": "stijnwinand"
+  "description": "stijnwinand",
+  "engines": {
+    "node": "6.2.0"
+  }
 }

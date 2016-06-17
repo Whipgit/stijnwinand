@@ -5,6 +5,10 @@ machine:
 dependencies:
   pre:
     - npm install -g npm
+
+test:
+  override:
+    - echo "test"
     
 deployment:
   staging:
