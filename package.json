@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
+    "preinstall": "npm i -g angular-cli typings",
+    "postinstall": "cd client && npm install --production",
     "start": "node .",
     "pretest": "jshint .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo 'Test are not yet runnable';",
     "posttest": "nsp check"
   },
   "dependencies": {
@@ -26,8 +28,10 @@
     "type": "",
     "url": ""
   },
-  "description": "stijnwinand",
+  "description": "stijnwinand.com",
   "engines": {
     "node": "6.2.0"
-  }
+  },
+  "private": true,
+  "license": "UNLICENSED"
 }
